@@ -1,16 +1,18 @@
-import React from 'react'
-import Button from './Button'
-import { buttons } from '../utils/constants'
-
-
+import React from "react";
+import Button from "./Button";
+import { buttons } from "../utils/constants";
+import { useSelector } from "react-redux";
 
 const ButtonList = () => {
- 
-  return (
-    <div className='m-2 md:flex md:block mx-2 hidden '>
-      {buttons.map((button, index) => <Button key={index} name={button} />)}
-    </div>
-  )
-}
+  const Sidebar = useSelector((store) => store.app.isMenuOpen);
 
-export default ButtonList
+  return (
+    <div className={`m-2 md:flex mx-2 hidden ${!Sidebar && "ml-[4.5rem]"}`}>
+      {buttons.map((button, index) => (
+        <Button key={index} name={button} />
+      ))}
+    </div>
+  );
+};
+
+export default ButtonList;
