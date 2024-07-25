@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom'
 
 const Body = () => {
   return (
-    <div className='flex'>
+    <div className='flex dark:bg-[#0f0f0f] transition-bg'>
       <div>
       <Sidebar />
       </div>
