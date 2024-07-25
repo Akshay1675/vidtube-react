@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.transition-bg {
+    @apply transition-colors duration-200;
+  }
+  
