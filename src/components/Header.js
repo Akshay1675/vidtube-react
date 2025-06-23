@@ -70,7 +70,7 @@ const Header = () => {
           <button className=" p-2 " onClick={() => handleListClick(searchText)}>
             {<Search className="dark:text-[#fff]" />}
           </button>
-          <Upload
+          <Upload 
             size={46}
             className="mx-4 hidden md:block bg-slate-100 dark:bg-[#3c3c3c] dark:text-[#fff]  rounded-full p-2 hover:bg-pink-800 dark:hover:bg-pink-700 cursor-pointer  hover:rounded-full hover:text-white"
           />
