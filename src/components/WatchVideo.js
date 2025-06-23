@@ -54,7 +54,7 @@ const WatchVideo = () => {
             mute="0"
             allow="accelerometer; fullscreen; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           ></iframe>
-          <h3 className="w-[357px] md:w-auto font-bold text-xl m-2 ml-2 p-2 dark:text-[#fff]">
+          <h3 className="w-[357px] md:w-auto font-bold text-xl m-2 ml-2 p-2 dark:text-[#fff] ">
             {videoDetails?.snippet?.title}
           </h3>
           <div className="md:mx-4">
