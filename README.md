@@ -26,7 +26,7 @@ The VidTube application has been designed to work seamlessly across multiple dev
 
 #### **Dark Mode**
 
-VidTube comes with a built-in dark mode feature that allows users to switch between light and dark modes based on their preference. The dark mode feature enhances the user experience and reduces eye strain, especially when viewing videos at night.
+VidTube comes with a built-in dark mode feature that allows users to switch between light and dark modes based on their preference. The dark mode feature enhances the user experience and reduces eye strain, especially when viewing videos at night. 
 
 
 
